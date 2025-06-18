@@ -23,15 +23,9 @@ source build/envsetup.sh
 # repopick 357348 # sepolicy: add policy for super fast charge
 
 # device/xiaomi/sm8250-common
-repopick 390713 # sm8250-common: rootdir: Set permission for pcie wlan rx
-repopick 390714 # sm8250-common: sepolicy: Allow ueventd to read vendor_persist_wcnss_service_file
-repopick 398045 # sm8250-common: sepolicy: Label wakeup nodes from pipa
-repopick 399007 # sm8250-common: label some pipa power_supply sysfs
-repopick 399008 # sm8250-common: sepolicy: label persist.vendor.EnableP3ColorSpace
-repopick 399009 # sm8250-common: sepolicy: label /data/vendor/sensor_log
 
 # device/xiaomi/pipa
-repopick 376507 376508 376509 376510 376513 376519 376520 376524 376525 376527 376529 376530 388725 398051 399010
+#repopick 376507 376508 376509 376510 376513 376519 376520 376524 376525 376527 376529 376530 388725 398051 399010
 
 # kernel/xiaomi/sm8250
 checkchain kernel/xiaomi/sm8250 refs/changes/83/388683/4
@@ -61,7 +55,7 @@ repopick -f -P frameworks/base 369790 # gmscompat: Apply the SafetyNet workaroun
 repopick -f -P frameworks/base 369791 # gmscompat: Use Nexus 6P fingerprint for CTS/Integrity
 repopick -f -P frameworks/base 369792 # gmscompat: Make CTS/Play Integrity pass again
 repopick -f -P frameworks/base 374392 # gmscompat: Use new info
-repopick -f -P frameworks/base 357510 # gmscompat: also spoof props for samsung/sec apps
+# repopick -f -P frameworks/base 357510 # gmscompat: also spoof props for samsung/sec apps
 
 # hardware/samsung_slsi-linaro/configs
 
@@ -96,8 +90,6 @@ repopick -f -P vendor/lineage 385496 # faceunlock
 repopick -f -P vendor/lineage 381475 # SystemUI: More notification icons on AOD screen
 repopick -f -P vendor/lineage 369794 # lineage: Disable privapp permission enforcement (make it log)
 repopick -f -P vendor/lineage 369795 # adb insecure by default
-#repopick -f -P vendor/lineage 400178 # lineage: more clocks
-#repopick -f -P vendor/lineage 400184 # lineage: disable now playing and live translate
 # repopick 357968 # config: add super fast charge interface
 
 exit 0
