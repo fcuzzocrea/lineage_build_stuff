@@ -8,27 +8,32 @@
     <linkfile src="picks.sh" dest="picks.sh" />
   </project>
 
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-22.2"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-22.2" />
-  
-  <!-- x1s -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.0" />
+
+  <!-- e1s -->
+  <project name="fcuzzocrea/android_device_samsung_s5e9945" path="device/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
+  <project name="fcuzzocrea/android_device_samsung_e1s" path="device/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
+  <project name="fcuzzocrea/android_kernel_samsung_s5e9945" path="kernel/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
+
+  <!-- x1s 
   <project name="fcuzzocrea/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github-personal" revision="lineage-21"/>
   <project name="fcuzzocrea/android_device_samsung_x1slte" path="device/samsung/x1slte" remote="github-personal" revision="lineage-21"/>
   <project name="fcuzzocrea/android_device_samsung_x1s" path="device/samsung/x1s" remote="github-personal" revision="lineage-21"/>
   <project name="fcuzzocrea/android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github-personal" revision="c2teststricted"/>
   <project name="fcuzzocrea/proprietary_vendor_samsung_universal9830-common" path="vendor/samsung/universal9830-common" remote="github-personal" revision="lineage-21"/>
   <project name="fcuzzocrea/proprietary_vendor_samsung_x1slte" path="vendor/samsung/x1slte" remote="github-personal" revision="lineage-21"/>
-  <project name="fcuzzocrea/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github-personal" revision="lineage-21"/>
+  <project name="fcuzzocrea/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github-personal" revision="lineage-21"/> -->
 
-  <!-- pipa -->
+  <!-- pipa
   <project name="fcuzzocrea/proprietary_vendor_xiaomi_pipa" path="vendor/xiaomi/pipa" remote="github-personal" revision="lineage-21" />
-  <project name="TheMuppets/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-22.2" />
+  <project name="TheMuppets/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-23.0" />  -->
 
   <!-- FaceUnlock 
   <project name="bosconovic/platform_packages_apps_faceunlock" path="packages/apps/FaceUnlock" remote="gitlab" /> -->
@@ -38,5 +43,5 @@
 
   <!-- Personal Stuff -->
   <project name="luk1337/ih8sn" path="external/ih8sn" revision="master" />
-  <project name="fcuzzocrea/android_vendor_extra" path="vendor/extra" remote="github-personal"/>
+  <!-- <project name="fcuzzocrea/android_vendor_extra" path="vendor/extra" remote="github-personal"/> -->
 </manifest>
