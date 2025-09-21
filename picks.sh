@@ -58,8 +58,8 @@ repopick 433482 # Style search bar to match new Settings UI
 # packages/overlays/Lineage
 
 # vendor/lineage
-repopick -f -p 434168 # lineage: Enable Material Design 3 Expressive
 repopick -f -P vendor/lineage 435923 # lineage: Disable privapp permission enforcement (make it log)
 repopick -f -P vendor/lineage 434170 # adb insecure by default
+repopick -f -p 434168 # lineage: Enable Material Design 3 Expressive
 
 exit 0
