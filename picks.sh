@@ -50,16 +50,24 @@ source build/envsetup.sh
 
 # hardware/samsung
 
+# packages/apps/Launcher3
+repopick -p 456301 # improvements
+
 # packages/apps/Settings
 
 # packages/apps/SettingsIntelligence
-repopick 433482 # Style search bar to match new Settings UI
+repopick 452780 # Wip: Style search bar for 16
 
 # packages/overlays/Lineage
 
 # vendor/lineage
 repopick -f -P vendor/lineage 435923 # lineage: Disable privapp permission enforcement (make it log)
 repopick -f -P vendor/lineage 434170 # adb insecure by default
-repopick -f -p 434168 # lineage: Enable Material Design 3 Expressive
+repopick -f -P vendor/lineage 434168 # lineage: Enable Material Design 3 Expressive
+
+# Permissive
+repopick -f 435920 # SELinux
+repopick -f 435921 # root by default
+repopick -f 435922 # console root
 
 exit 0
