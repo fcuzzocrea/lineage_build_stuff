@@ -39,10 +39,15 @@ source build/envsetup.sh
 # frameworks/base
 
 # hardware/samsung_slsi-linaro/configs
+repopick 453260 # config: Check kernel version properly for openmax
+repopick 453261 # config: Initial configuration for s5e9945
 
 # hardware/samsung_slsi-linaro/exynos
 
 # hardware/samsung_slsi-linaro/graphics
+repopick 455766 # Add support for new restrictions property
+repopick 453273 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945
+repopick 453275 # libhwc2.1: s5e9945: Enable WCG/HDR10/HDR10+
 
 # hardware/samsung_slsi-linaro/interfaces
 
