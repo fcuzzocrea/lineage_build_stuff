@@ -69,17 +69,25 @@ repopick 458995 # gmscompat: refacor using switches
 repopick 458996 # gmscompat: also spoof props for samsung/sec apps
 
 # hardware/samsung_slsi-linaro/configs
-# repopick 453260 # config: Check kernel version properly for openmax
-# repopick 453261 # config: Initial configuration for s5e9945
+repopick 453260 # config: Check kernel version properly for openmax
+repopick 453261 # config: Initial configuration for s5e9945
+repopick 459041 # fixup! config: add openmax compatibility makefile
+repopick 459042 # openmax: wire up more configurables
+repopick 459043 # BoardConfig9945: rework 9945 configuration
 
 # hardware/samsung_slsi-linaro/exynos
+repopick 459044 # exynos: Add kernel-6.1-headers
 
 # hardware/samsung_slsi-linaro/graphics
 # repopick 455766 # Add support for new restrictions property
-# repopick 453273 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945
-# repopick 453275 # libhwc2.1: s5e9945: Enable WCG/HDR10/HDR10+
+repopick 453273 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945
+repopick 453275 # libhwc2.1: s5e9945: Enable WCG/HDR10/HDR10+
+repopick 458446 # Set SBWC alignment
 
 # hardware/samsung_slsi-linaro/interfaces
+
+# hardware/samsung_slsi-linaro/sgpu
+repopick 458397 # Convert gralloc4 service to AIDL
 
 # hardware/lineage/interfaces
 

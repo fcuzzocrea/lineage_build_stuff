@@ -11,11 +11,11 @@
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github-personal" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github-personal" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github-personal" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" path="hardware/samsung_slsi-linaro/codec2" remote="github-personal" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-23.0"/>
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" path="hardware/samsung_slsi-linaro/codec2" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_sgpu" path="hardware/samsung_slsi-linaro/sgpu" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.0" />
 
