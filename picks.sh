@@ -68,21 +68,31 @@ repopick -f 458994 # gmscompat: Un-spoof GMS while adding google account
 repopick -f 458995 # gmscompat: refacor using switches
 repopick -f 458996 # gmscompat: also spoof props for samsung/sec apps
 
-# hardware/samsung_slsi-linaro/configs
-repopick 453260 # config: Check kernel version properly for openmax
+# hardware/samsung_slsi-linaro/config
+repopick 459968 # openmax: Wire up ST2094 properly
+repopick 459984 # openmax: Rename filmgrain configurable
+repopick 460013 # hwc: Enable USE_LIBHDR*_PLUGIN when BOARD_LIBHDR*_PLUGIN is set
+repopick 460012 # gralloc: Add configurable for SGR Gralloc
+repopick 460014 # config: Add configurable for legacy libgdc option
+repopick 460011 # hwc: Rename configurable for SAJC
+repopick 460048 # config: Add configurable for sbwcwrapper priority
 repopick 453261 # config: Initial configuration for s5e9945
-repopick 459041 # fixup! config: add openmax compatibility makefile
-repopick 459042 # openmax: wire up more configurables
-repopick -f 459043 # BoardConfig9945: rework 9945 configuration
+repopick 459043 # BoardConfig9945: rework 9945 configuration
+repopick 458636 # config: Initial configuration for s5e9925
+repopick 462372 # config: add configurable for libhdr_header_version
 
 # hardware/samsung_slsi-linaro/exynos
 repopick 459044 # exynos: Add kernel-6.1-headers
+repopick 459102 # libhdr-common-headers: export platform independent headers
+repopick 459210 # libhdr-common-header: provide struct hdrCoef
+repopick 459138 # libdisplaycolor: define log tag 
 
 # hardware/samsung_slsi-linaro/graphics
 # repopick 455766 # Add support for new restrictions property
-repopick 453273 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945
-repopick 453275 # libhwc2.1: s5e9945: Enable WCG/HDR10/HDR10+
+repopick 459108 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945
+repopick 459109 # libhwc2.1: s5e9945: Enable WCG/HDR10/HDR10+
 repopick 458446 # Set SBWC alignment
+repopick 459110 # libacryl: make the libhdrinterface headers configurable
 
 # hardware/samsung_slsi-linaro/interfaces
 
