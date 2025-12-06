@@ -17,17 +17,18 @@ source build/envsetup.sh
 # -------------- DEVICE STUFF --------------
 
 # device/samsung_slsi/sepolicy
-# repopick 357508 # sepolicy: add policy for super fast charge
 
 # device/lineage/sepolicy
-# repopick 357348 # sepolicy: add policy for super fast charge
 
 # device/xiaomi/sm8250-common
+repopick 439150 # sm8250-common: Update WFD system blobs from dada OS2.0.217.0.WOCMIXM
+repopick 458638 # sm8250-common: Disable `thumbnail_block_model` of libstagefright
+repopick 460035 # sm8250-common: Opt out of speaker_layout_channel_mask field 
 
 # device/xiaomi/pipa
-# repopick 376507 376508 376509 376510 376513 376519 376520 376524 376525 376527 376529 376530 388725 398051 399010
+repopick 463620 463621 463621 463622 463623 463624 463625 463626 463627 463628 463629 463630 463631 463632 463633 463634 463635 463636 463637 463638 463639 463640 463641 463642 463643 463644 463645 463646 463647 463648 463649 463650 463651 463652 463653 463654 463655 463656 463657 463658 463659 463660 463661 463662 463663 463664 463665 463666 463667
 
-# kernel/xiaomi/sm8250
+# kernel/xiaomi/sm8250 - kernel with bpf backports not yet pushed
 # checkchain kernel/xiaomi/sm8250 refs/changes/83/388683/4
 
 # -------------- PLATFORM STUFF --------------
@@ -69,30 +70,31 @@ repopick -f 458995 # gmscompat: refacor using switches
 repopick -f 458996 # gmscompat: also spoof props for samsung/sec apps
 
 # hardware/samsung_slsi-linaro/config
-repopick 459968 # openmax: Wire up ST2094 properly
-repopick 459984 # openmax: Rename filmgrain configurable
-repopick 460013 # hwc: Enable USE_LIBHDR*_PLUGIN when BOARD_LIBHDR*_PLUGIN is set
-repopick 460012 # gralloc: Add configurable for SGR Gralloc
-repopick 460014 # config: Add configurable for legacy libgdc option
-repopick 460011 # hwc: Rename configurable for SAJC
-repopick 460048 # config: Add configurable for sbwcwrapper priority
 repopick 453261 # config: Initial configuration for s5e9945
 repopick 459043 # BoardConfig9945: rework 9945 configuration
 repopick 458636 # config: Initial configuration for s5e9925
-repopick 462372 # config: add configurable for libhdr_header_version
 
 # hardware/samsung_slsi-linaro/exynos
-repopick 459044 # exynos: Add kernel-6.1-headers
-repopick 459102 # libhdr-common-headers: export platform independent headers
-repopick 459210 # libhdr-common-header: provide struct hdrCoef
-repopick 459138 # libdisplaycolor: define log tag 
+repopick 463125 # exynos: kernel-5.10-headers: Import DRM headers
+repopick 463126 # exynos: kernel-6.1-headers: Import DRM headers
 
 # hardware/samsung_slsi-linaro/graphics
 # repopick 455766 # Add support for new restrictions property
-repopick 459108 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945
+repopick 459108 # libhwc2.1: s5e9945: Adapt CpuPerfInfo to s5e9945 - actually drop EPIC boosting from bsp
 repopick 459109 # libhwc2.1: s5e9945: Enable WCG/HDR10/HDR10+
-repopick 458446 # Set SBWC alignment
-repopick 459110 # libacryl: make the libhdrinterface headers configurable
+repopick 463127 # libhwc2.1: Use kernel headers for DRM modifiers
+repopick 463128 # libhwc2.1: Add support for kernel 5.10 SBWC modifier macros
+repopick 458446 # libhwc2.1: Add support for kernel 6.1 SBWC modifier macros
+repopick 463139 # libhwc2.1: Add support for kernel 6.1 SAJC modifier macros
+repopick 462583 # libhwc2.1: platform: Add initial support for s5e9925
+repopick 463129 # libhwc2.1: s5e9925: Kill FBInterface modules
+repopick 463130 # libhwc2.1: s5e9925: Kill AFBC logic
+repopick 463135 # libhwc2.1: s5e9925: drop setPerformanceSetting()
+repopick 462585 # libhwc2.1: s5e9925: Brightness / hiber_exit nodes
+repopick 462586 # libhwc2.1: s5e9925: Kill EPIC interface usage
+repopick 463137 # libhwc2.1: s5e9925: support TDM based resource allocation
+repopick 463305 # [DNM] [WIP] libhwc2.1: s5e9925: RE stock HWResourceTables
+repopick 463490 # [DNM] [WIP] libhwc2.1: s5e9925: RE stock sramAmountMap
 
 # hardware/samsung_slsi-linaro/interfaces
 
@@ -121,13 +123,12 @@ repopick -f 458962 # Settings: Use ActionPrimaryButton style for face buttons
 repopick -f 458978 # Settings: Add three-fingers-swipe to screenshot [2/2]
 
 # packages/apps/SettingsIntelligence
-repopick 433482 # Style search bar to match new Settings UI
 
 # packages/overlays/Lineage
 
 # vendor/lineage
 repopick -f -P vendor/lineage 435923 # lineage: Disable privapp permission enforcement (make it log)
-repopick -f -P vendor/lineage 434170 # adb insecure by default
+# repopick -f -P vendor/lineage 434170 # adb insecure by default - to be handpicked
 repopick -f 458963 # lineage: Switch to AOSPA's face unlock implementation
 
 # Permissive
