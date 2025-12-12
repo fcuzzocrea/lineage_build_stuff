@@ -70,6 +70,7 @@ repopick -f 458995 # gmscompat: refacor using switches
 repopick -f 458996 # gmscompat: also spoof props for samsung/sec apps
 
 # hardware/samsung_slsi-linaro/config
+repopick 464874 # config: wire up BOARD_USES_4K_SWIZZLE_MODE
 repopick 453261 # config: Initial configuration for s5e9945
 repopick 459043 # BoardConfig9945: rework 9945 configuration
 repopick 458636 # config: Initial configuration for s5e9925
@@ -77,6 +78,7 @@ repopick 458636 # config: Initial configuration for s5e9925
 # hardware/samsung_slsi-linaro/exynos
 repopick 463125 # exynos: kernel-5.10-headers: Import DRM headers
 repopick 463126 # exynos: kernel-6.1-headers: Import DRM headers
+repopick 463821 # libexynosgraphicbuffer: sgr: implment get_sajc_sw_mode
 
 # hardware/samsung_slsi-linaro/graphics
 # repopick 455766 # Add support for new restrictions property
@@ -86,20 +88,26 @@ repopick 463127 # libhwc2.1: Use kernel headers for DRM modifiers
 repopick 463128 # libhwc2.1: Add support for kernel 5.10 SBWC modifier macros
 repopick 458446 # libhwc2.1: Add support for kernel 6.1 SBWC modifier macros
 repopick 463139 # libhwc2.1: Add support for kernel 6.1 SAJC modifier macros
+repopick 463820 # libhwc2.1: add support for 6.1 kernel DRM_FORMAT_MOD_SAMSUNG_SAJC
 repopick 462583 # libhwc2.1: platform: Add initial support for s5e9925
 repopick 463129 # libhwc2.1: s5e9925: Kill FBInterface modules
 repopick 463130 # libhwc2.1: s5e9925: Kill AFBC logic
+repopick 464638 # libhwc2.1: s5e9925: Kill Virtual 8K logic
+repopick 462586 # libhwc2.1: s5e9925: Kill EPIC interface usage
 repopick 463135 # libhwc2.1: s5e9925: drop setPerformanceSetting()
 repopick 462585 # libhwc2.1: s5e9925: Brightness / hiber_exit nodes
-repopick 462586 # libhwc2.1: s5e9925: Kill EPIC interface usage
+repopick 464741 # libhwc2.1: s5e9925: Adapt display setup to DRM
+repopick 464738 # libhwc2.1: s5e9925: Set stock hardware clocks
+repopick 464739 # libhwc2.1: s5e9925: Set stock ppc_table_map
 repopick 463137 # libhwc2.1: s5e9925: support TDM based resource allocation
-repopick 463305 # [DNM] [WIP] libhwc2.1: s5e9925: RE stock HWResourceTables
-repopick 463490 # [DNM] [WIP] libhwc2.1: s5e9925: RE stock sramAmountMap
+repopick 463305 # libhwc2.1: s5e9925: Align TDM-based resource allocation logic to stock
 
 # hardware/samsung_slsi-linaro/interfaces
 
 # hardware/samsung_slsi-linaro/sgpu
 repopick 458397 # Convert gralloc4 service to AIDL
+repopick 464872 # sgpu_gralloc: align naming with samsung stock service
+repopick 464300 # sgpu_gralloc: add support to 4K swizzle
 
 # hardware/lineage/interfaces
 
