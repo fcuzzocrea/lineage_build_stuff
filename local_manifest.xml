@@ -24,7 +24,7 @@
   <!-- e1s -->
   <project name="fcuzzocrea/android_device_samsung_s5e9945" path="device/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/android_device_samsung_e1s" path="device/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
-  <project name="fcuzzocrea/proprietary_vendor_samsung_s5e9945" path="vendor/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
+  <project name="fcuzzocrea/proprietary_vendor_samsung_s5e9945-common" path="vendor/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/proprietary_vendor_samsung_e1s" path="vendor/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/android_kernel_samsung_s5e9945" path="kernel/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
 
