@@ -8,7 +8,7 @@
     <linkfile src="picks.sh" dest="picks.sh" />
   </project>
 
-  <!-- common samsung stuff -->
+  <!-- common samsung stuff 
   <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.0"/>
@@ -20,27 +20,28 @@
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_sgpu" path="hardware/samsung_slsi-linaro/sgpu" remote="github" revision="lineage-23.0"/>
   <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.0" />
   <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-23.0" />
-
-  <!-- e1s -->
+-->
+  <!-- e1s 
   <project name="fcuzzocrea/android_device_samsung_s5e9945" path="device/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/android_device_samsung_e1s" path="device/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/proprietary_vendor_samsung_s5e9945-common" path="vendor/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/proprietary_vendor_samsung_e1s" path="vendor/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
   <project name="fcuzzocrea/android_kernel_samsung_s5e9945" path="kernel/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
-
-  <!-- x1s  -->
+-->
+  <!-- x1s  
   <project name="LineageOS/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github-personal" revision="lineage-23.0"/>
   <project name="LineageOS/android_device_samsung_x1s" path="device/samsung/x1s" remote="github-personal" revision="lineage-23.0"/>
   <project name="LineageOS/android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github-personal" revision="lineage-23.0"/>
   <project name="TheMuppets/proprietary_vendor_samsung_universal9830-common" path="vendor/samsung/universal9830-common" remote="github-personal" revision="lineage-23.0"/>
   <project name="TheMuppets/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github-personal" revision="lineage-23.0"/>
+-->
 
   <!-- pipa -->
   <project name="LineageOS/android_device_xiaomi_pipa" path="device/xiaomi/pipa" remote="github" revision="lineage-23.0" />
-  <project name="LineageOS/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-23.0" />
-  <project name="fcuzzocrea/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github-personal" revision="lineage-23.0" />
-  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.0" />\
-  <project name="fcuzzocrea/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-23.0" />
+  <project name="LineageOS/android_device_xiaomi_sm8250-common" path="device/xiaomi/sm8250-common" remote="github" revision="lineage-23.2" />
+  <project name="fcuzzocrea/android_kernel_xiaomi_sm8250" path="kernel/xiaomi/sm8250" remote="github-personal" revision="lineage-23.2" />
+  <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.2" />
+  <project name="fcuzzocrea/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-23.2" />
   <project name="fcuzzocrea/proprietary_vendor_xiaomi_pipa" path="vendor/xiaomi/pipa" remote="github" revision="lineage-23.0" />
 
   <!-- FaceUnlock  -->
