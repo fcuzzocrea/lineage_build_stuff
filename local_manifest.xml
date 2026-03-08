@@ -44,6 +44,7 @@
   <project name="bosconovic/platform_packages_apps_faceunlock" path="packages/apps/FaceUnlock" remote="gitlab" />
 
   <!-- Pixel Stuff -->
+  <project name="bosconovic/android_vendor_pixel_extract-utils.git" path="vendor/google_pixel/extract-utils" remote="gitlab" revision="lineage-23.2" />
   <project name="bosconovic/proprietary-vendor-google-pixel-pixel.git" path="vendor/google_pixel/pixel" remote="gitlab" revision="lineage-23.2" />
   <project name="bosconovic/proprietary_vendor_pixel_clocks.git" path="vendor/google_pixel/clocks" remote="gitlab" revision="lineage-23.2" />
   <project name="bosconovic/proprietary_vendor_pixel_sounds.git" path="vendor/google_pixel/sounds" remote="gitlab" revision="lineage-23.2" />
