@@ -8,33 +8,25 @@
     <linkfile src="picks.sh" dest="picks.sh" />
   </project>
 
-  <!-- common samsung stuff 
-  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" path="hardware/samsung_slsi-linaro/codec2" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_sgpu" path="hardware/samsung_slsi-linaro/sgpu" remote="github" revision="lineage-23.0"/>
-  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github" revision="lineage-23.0" />
-  <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="lineage-23.0" />
--->
-  <!-- e1s 
-  <project name="fcuzzocrea/android_device_samsung_s5e9945" path="device/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
-  <project name="fcuzzocrea/android_device_samsung_e1s" path="device/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
-  <project name="fcuzzocrea/proprietary_vendor_samsung_s5e9945-common" path="vendor/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
-  <project name="fcuzzocrea/proprietary_vendor_samsung_e1s" path="vendor/samsung/e1s" remote="github-personal" revision="lineage-23.0"/>
-  <project name="fcuzzocrea/android_kernel_samsung_s5e9945" path="kernel/samsung/s5e9945" remote="github-personal" revision="lineage-23.0"/>
--->
-  <!-- x1s  
-  <project name="LineageOS/android_device_samsung_universal9830-common" path="device/samsung/universal9830-common" remote="github-personal" revision="lineage-23.0"/>
-  <project name="LineageOS/android_device_samsung_x1s" path="device/samsung/x1s" remote="github-personal" revision="lineage-23.0"/>
-  <project name="LineageOS/android_kernel_samsung_universal9830" path="kernel/samsung/universal9830" remote="github-personal" revision="lineage-23.0"/>
-  <project name="TheMuppets/proprietary_vendor_samsung_universal9830-common" path="vendor/samsung/universal9830-common" remote="github-personal" revision="lineage-23.0"/>
-  <project name="TheMuppets/proprietary_vendor_samsung_x1s" path="vendor/samsung/x1s" remote="github-personal" revision="lineage-23.0"/>
--->
+  <!-- common samsung stuff -->
+  <project name="LineageOS/android_hardware_samsung" path="hardware/samsung" remote="github" />
+  <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_openmax" path="hardware/samsung_slsi-linaro/openmax" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_graphics" path="hardware/samsung_slsi-linaro/graphics" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos5" path="hardware/samsung_slsi-linaro/exynos5" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_exynos" path="hardware/samsung_slsi-linaro/exynos" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_config" path="hardware/samsung_slsi-linaro/config" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_codec2" path="hardware/samsung_slsi-linaro/codec2" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_sgpu" path="hardware/samsung_slsi-linaro/sgpu" remote="github" />
+  <project name="LineageOS/android_hardware_samsung_slsi-linaro_interfaces" path="hardware/samsung_slsi-linaro/interfaces" remote="github"  />
+  <project name="LineageOS/android_hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github"  />
+
+  <!-- e1s -->
+  <project name="fcuzzocrea/android_device_samsung_s5e9945" path="device/samsung/s5e9945" remote="github-personal" revision="lineage-23.2"/>
+  <project name="fcuzzocrea/android_device_samsung_e1s" path="device/samsung/e1s" remote="github-personal" revision="lineage-23.2"/>
+  <project name="fcuzzocrea/proprietary_vendor_samsung_s5e9945-common" path="vendor/samsung/s5e9945" remote="github-personal" revision="lineage-23.2"/>
+  <project name="fcuzzocrea/proprietary_vendor_samsung_e1s" path="vendor/samsung/e1s" remote="github-personal" revision="lineage-23.2"/>
+  <project name="fcuzzocrea/android_kernel_samsung_s5e9945" path="kernel/samsung/s5e9945" remote="github-personal" revision="lineage-23.2"/>
 
   <!-- pipa -->
   <project name="TheMuppets/proprietary_vendor_xiaomi_sm8250-common" path="vendor/xiaomi/sm8250-common" remote="github" revision="lineage-23.2" />
