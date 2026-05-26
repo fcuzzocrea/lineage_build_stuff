@@ -70,6 +70,12 @@ repopick -f 476086 # SystemUI: Disable smartspace default view
 # hardware/samsung
 
 # packages/apps/Launcher3
+repopick 480649 # Launcher3: Add pause/unpause app system shortcut
+repopick 478624 # Enable navbar animation by default
+repopick -f 487244 # Launcher3: Copy 4x5 grid size from Pixel
+repopick -f 487245 # Launcher3: Restore 4x4 workspace
+repopick -f 487246 # Launcher3: Update grid sizes from Pixel launcher
+repopick -f 487247 # Launcher3: Ditch workspace top/bottom padding for 6*5 grid
 
 # packages/apps/Settings
 repopick -f 476087 # Add Face Unlock with ParanoidSense
